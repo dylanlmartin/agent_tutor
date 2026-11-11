@@ -64,11 +64,20 @@ for them. Guidelines:
   transcript or the video's own chapter markers, never guessed. Where you
   can fetch a transcript (e.g. `yt-dlp --write-auto-subs --skip-download`),
   save it under `resources/videos/NN.md` with a concept index table
-  (start, end, lesson, concept) above the timestamped transcript. Clip
-  links: `https://www.youtube.com/embed/<id>?start=<sec>&end=<sec>` plays
-  just the segment; `https://youtu.be/<id>?t=<sec>` opens at a moment. If
-  no transcript or chapters are available, link the whole video and name
-  the topic without times.
+  (start, end, lesson, concept) above the timestamped transcript.
+- **Clip links** use the shared clip player, which plays only the segment
+  and stops by itself:
+  `https://dylanlmartin.github.io/video_embedding/?v=<id>&start=<sec>&end=<sec>&title=<url-encoded text>`
+  (times in seconds or `m:ss`). Raw `youtube.com/embed` links often fail
+  with "Error 153" when opened directly, because YouTube's player must run
+  inside a web page; the player page handles that and has an "Open on
+  YouTube" fallback. To host your own, fork
+  [dylanlmartin/video_embedding](https://github.com/dylanlmartin/video_embedding),
+  enable GitHub Pages, and replace the base URL. Use
+  `https://youtu.be/<id>?t=<sec>` for a single moment rather than a
+  segment. Videos whose owners disable embedding only play on YouTube.
+  If no transcript or chapters are available, link the whole video and
+  name the topic without times.
 - **Coverage gaps**: list lessons with no coverage so the tutor knows to
   teach from first principles or source more material.
 
