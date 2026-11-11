@@ -10,7 +10,8 @@ rules to maintain.
 |---|---|---|
 | Read/write files in the repo | Progress, lessons, misconceptions | Use manual mode (below) |
 | Shell + git | Silent commit/push to `main` | Learner commits; agent lists changed files |
-| Web search / fetch | Sourcing materials, transcripts | Learner provides materials or fetches suggested links |
+| Web search / fetch | Sourcing materials | Learner provides materials or fetches suggested links |
+| Python + YouTube access | Video transcripts (`tools/fetch_videos.py`) | Learner runs the fetch script locally and commits the output |
 | Code execution | `checks/` scripts | Learner runs the scripts |
 
 ## Coding agents (repo access)

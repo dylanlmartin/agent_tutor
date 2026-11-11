@@ -43,9 +43,11 @@ Mark every item that contains solutions.
 
 ## 4. Map materials to lessons → `resources/README.md`
 Index per `docs/materials.md` §4: for each lesson, readings
-(section/pages), video clips (start/end from transcripts or chapters,
-never guessed), and problems. Lessons with no coverage: say so, and offer
-to source more for those.
+(section/pages) and problems in `resources/README.md`. For videos, run the
+whole pipeline yourself, without handing it to the learner: fetch
+transcripts (`tools/fetch_videos.py`), fill each video's concept index from
+its transcript, and build `resources/clips.md` (`tools/build_clips.py`).
+Lessons with no coverage: say so, and offer to source more for those.
 
 ## 5. Placement → `progress.md`
 - Build `progress.md` with every lesson at `0`.

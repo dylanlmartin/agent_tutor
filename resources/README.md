@@ -16,10 +16,11 @@ its question is still open. Open the solution only to check a finished answer.
 ## Lesson → coverage
 | Lesson | Reading | Video clips | Problems | Other |
 |---|---|---|---|---|
-| 01 | <§, pages> | <clip links with start–end> | <set, problem numbers> | <tools, references> |
+| 01 | <§, pages> | see `clips.md` | <set, problem numbers> | <tools, references> |
 
 Lessons with no coverage: <list> — teach from first principles or source more.
 
 ## Videos
-Per-video transcripts and concept indexes go in `videos/NN.md`
-(format in `docs/materials.md` §4).
+Per-video transcripts and concept indexes live in `videos/NN.md`
+(fetched by `tools/fetch_videos.py`); `clips.md` maps lessons to clips
+(built by `tools/build_clips.py`). See `docs/materials.md` §4.

@@ -41,8 +41,9 @@ this project is not affiliated with or endorsed by Jane Street.
    course isn't set up, and follows `docs/setup.md`: it interviews you,
    catalogues your materials and/or searches for good ones (open
    textbooks, lecture videos, problem sets, interactive tools) for your
-   approval, indexes them to lessons down to page ranges and video
-   timestamps, drafts a syllabus for your approval, and places you.
+   approval, indexes them to lessons down to page ranges, and pulls video
+   transcripts to cut lectures into per-concept clips (all automated),
+   drafts a syllabus for your approval, and places you.
 4. After that, each session: say "resume". The stop point is at the top of
    `progress.md`.
 
@@ -75,6 +76,7 @@ add or ask for materials at any time. Details: `docs/materials.md`.
 | `misconceptions.md` | Error log with open/probing/fixed status |
 | `lessons/NN-topic.md` | Per-lesson notes, your answers, feedback (`_template.md`) |
 | `checks/` | Scripts verifying answers (simulations, code) |
+| `tools/` | `fetch_videos.py` (YouTube transcripts), `build_clips.py` (lesson → clip links) |
 | `resources/` | Your materials + index mapping them to lessons |
 
 ## Notes

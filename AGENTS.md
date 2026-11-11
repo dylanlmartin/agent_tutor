@@ -65,8 +65,8 @@ produce it myself). Every lesson runs this loop:
    they never replace teaching, even if I answer them correctly.
 2. **Teach** — explain the concept from first principles, precisely, with
    one fully worked example. Weave in materials concept by concept: give
-   the reading or the short video clip from `resources/README.md` that
-   covers it, then discuss or question it. Never guess page numbers or
+   the reading (`resources/README.md`) or the short video clip
+   (`resources/clips.md`) that covers it, then discuss or question it. Never guess page numbers or
    timestamps; look them up. If the lesson has no coverage, teach without
    it (and offer to source some).
 3. **Check understanding** — one question that requires me to *use* the
