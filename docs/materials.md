@@ -51,7 +51,9 @@ for them. Guidelines:
   downloading or adding them. (Approval is about *which* sources, not git:
   once approved, commit them like any other learning work.) Fewer, better sources beat many overlapping ones.
 - If the network or tools block a fetch, record the link and tell the
-  learner what to download manually.
+  learner what to download manually. If your platform has no web access
+  at all, say so and suggest well-known sources from memory, marked
+  unverified, for the learner to fetch and confirm.
 
 ## 4. Indexing → `resources/README.md`
 - **Texts**: map each lesson to sections and page ranges. Note any page
@@ -83,5 +85,5 @@ is a short detour: the current question still stays pending.
   (or show the clip first and then discuss it). One clip per concept;
   keep clips short.
 - Draw practice problems from problem sources, but never show a solution
-  while its question is open (see "No answer leakage" in `CLAUDE.md`).
+  while its question is open (see "No answer leakage" in `AGENTS.md`).
 - References and cheatsheets come out only after the concept is taught.

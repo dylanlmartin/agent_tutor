@@ -56,5 +56,5 @@ to source more for those.
 
 ## 6. Save and start
 Commit ("Set up course: <subject>") and push to `main`, silently, per the
-Git workflow in `CLAUDE.md`. Then begin Lesson 01 (or the first lesson
+Git workflow in `AGENTS.md`. Then begin Lesson 01 (or the first lesson
 below 3) in tutoring mode.
