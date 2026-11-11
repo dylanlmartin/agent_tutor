@@ -19,6 +19,16 @@ updated and committed every session.
   earlier lessons; misses lower the level.
 - **Misconceptions are tracked** and re-tested until fixed.
 
+## Inspiration
+Inspired by Jane Street's **socratic-tutor** skill in
+[janestreet/agent_skills](https://github.com/janestreet/agent_skills)
+(diagnostic placement, a 0–5 skill map, one question at a time, spaced
+review). This template turns that approach into a repo that persists
+across sessions: a syllabus, progress and misconceptions files, and
+lesson notes committed every session. It adds direct instruction alongside the
+questioning, mastery gating between lessons, and a setup process
+for providing or sourcing materials.
+
 ## Getting started
 1. Create a repo from this template ("Use this template" on GitHub, or copy it).
 2. Optional: drop your materials (textbook PDFs, notes, slides, problem
