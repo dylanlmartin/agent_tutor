@@ -29,6 +29,8 @@ across sessions: a syllabus, progress and misconceptions files, and
 lesson notes committed every session. It adds direct instruction alongside
 the questioning, mastery gating between lessons, a setup process for
 providing or sourcing materials, and support for many agent platforms.
+Adapted portions are credited in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md);
+this project is not affiliated with or endorsed by Jane Street.
 
 ## Getting started
 1. Create a repo from this template ("Use this template" on GitHub, or copy it).
