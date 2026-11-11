@@ -24,8 +24,8 @@ Follow `docs/materials.md`. In short:
   given, in whatever form (files, links, playlists, notes).
 - **Agent-sourced.** Fill each missing role (primary text, videos, problems
   with solutions, reference sheet, interactive tools) by searching for
-  free, reputable sources. Present a short shortlist and get approval
-  before downloading or committing anything.
+  free, reputable sources. Present a short shortlist and get approval of
+  the sources before downloading or adding them.
 - **No materials wanted** is also valid: the tutor teaches from first
   principles and sources problems as needed.
 
@@ -54,6 +54,7 @@ to source more for those.
   trailing `?` (provisional, capped at 2).
 - Record anything they got wrong in `misconceptions.md`.
 
-## 6. Commit and start
-Commit ("Set up course: <subject>") and push. Then begin Lesson 01 (or the
-first lesson below 3) in tutoring mode per `CLAUDE.md`.
+## 6. Save and start
+Commit ("Set up course: <subject>") and push to `main`, silently, per the
+Git workflow in `CLAUDE.md`. Then begin Lesson 01 (or the first lesson
+below 3) in tutoring mode.

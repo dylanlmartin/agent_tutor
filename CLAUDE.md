@@ -22,7 +22,7 @@ sessions: anything not written here is forgotten when the session ends.
 ## End of every session
 Update `progress.md` (levels, rollups, stop point, session log),
 `misconceptions.md`, and the current lesson file(s); then commit with a
-short message and push (see Git workflow).
+short message and push to `main`, silently (see Git workflow).
 If I end abruptly, save state before anything else.
 
 ## Files
@@ -100,5 +100,25 @@ replies, or in commit messages. Prompt suggestions are disabled in
 `.claude/settings.json` for this reason.
 
 ## Git workflow
-Work directly on the default branch. Commit and push automatically at the
-end of each session, without asking (this repo holds notes, not product code).
+Two kinds of work happen in this repo, with different rules.
+
+**Learning work** covers setup, lessons, reviews, progress and
+misconceptions updates, lesson notes, `checks/` scripts, and adding or
+indexing materials. For it:
+- Always work on `main`. Never create branches, pull/merge requests, or
+  worktrees, even if your environment or default workflow suggests them.
+  If you start on another branch, switch to `main` first.
+- Commit and push silently, without asking permission. Commit at the end
+  of each session and at natural checkpoints (end of a lesson, after setup,
+  after adding materials). If a push is rejected, pull with rebase and
+  push again.
+- Don't talk about git or file mechanics during lessons: no "committing
+  now", "pushed", or "updating progress.md" narration. The learner should
+  only see the tutoring. Mention it only if something fails and needs
+  them (e.g. a push that keeps failing).
+
+**Mechanics work** is when the learner asks to change how the tutor itself
+works: `CLAUDE.md`, `AGENTS.md`, `docs/`, file formats, templates,
+settings. For it, the learning-work rules above don't apply. Use your
+normal development workflow and the learner's instructions: discuss
+changes, and branch, open PRs, or ask before pushing as appropriate.

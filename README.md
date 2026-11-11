@@ -68,8 +68,12 @@ Using a different agent? `AGENTS.md` points it to the same instructions.
 | `resources/` | Your materials + index mapping them to lessons |
 
 ## Notes
-- The agent commits and pushes to the default branch at the end of every
-  session. Keep the repo private if your notes are personal or your
-  materials are copyrighted.
+- During learning (setup, lessons, progress updates, materials) the agent
+  works only on `main` and commits and pushes silently: no branches, no
+  PRs, no permission prompts, and no git talk in lessons. When you change
+  the tutor's own mechanics (`CLAUDE.md`, `docs/`, formats), it uses a
+  normal development workflow instead.
+- Keep the repo private if your notes are personal or your materials are
+  copyrighted.
 - Prompt suggestions are disabled (`.claude/settings.json`) so they can't
   leak answers to pending questions.

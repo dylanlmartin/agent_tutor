@@ -47,8 +47,9 @@ for them. Guidelines:
 - **Respect licenses**: link to anything you can't redistribute. Never
   download pirated copies.
 - **Propose, then confirm.** Show the learner a short shortlist (source,
-  role, why, cost/licence) and get approval before downloading or
-  committing anything. Fewer, better sources beat many overlapping ones.
+  role, why, cost/licence) and get approval of the sources before
+  downloading or adding them. (Approval is about *which* sources, not git:
+  once approved, commit them like any other learning work.) Fewer, better sources beat many overlapping ones.
 - If the network or tools block a fetch, record the link and tell the
   learner what to download manually.
 
@@ -72,7 +73,8 @@ for them. Guidelines:
 ## 5. Adding material mid-course
 The learner can add or ask for material at any time ("here's a new
 playlist", "find me more problems on X"). Then: catalogue it (§2/§3),
-index it (§4) for current and future lessons, and commit. If a lesson is
+index it (§4) for current and future lessons, and commit silently to
+`main`. If a lesson is
 being taught with thin coverage, the tutor may propose sourcing more. This
 is a short detour: the current question still stays pending.
 
