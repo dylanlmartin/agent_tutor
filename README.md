@@ -86,3 +86,7 @@ add or ask for materials at any time. Details: `docs/materials.md`.
 - Turn off reply suggestions/autocomplete in your agent so they can't
   leak answers to pending questions (already done for Claude Code in
   `.claude/settings.json`).
+
+## License
+The template itself is [MIT](LICENSE). Materials you add to `resources/`
+keep their own licenses and aren't covered by it.
