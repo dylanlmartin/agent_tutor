@@ -18,7 +18,7 @@ rules to maintain.
 | Platform | Reads | Notes |
 |---|---|---|
 | OpenAI Codex (CLI / IDE) | `AGENTS.md` | Works as is. Codex cloud tasks typically hand back a diff or PR; for lessons, prefer the CLI or IDE in a local clone so commits go straight to `main`. |
-| Claude Code | `CLAUDE.md` → `@AGENTS.md` | Prompt suggestions are disabled in `.claude/settings.json`. Cloud sessions may start on an assigned branch; the Git workflow tells the agent to use `main` for learning work. |
+| Claude Code | `CLAUDE.md` → `@AGENTS.md` | Prompt suggestions are disabled in `.claude/settings.json`. Cloud sessions start on an assigned `claude/…` branch. A SessionStart hook (`tools/session_start.sh`, wired in `.claude/settings.json`) switches to `main` and deletes the empty session branch; `AGENTS.md` gives standing permission to push to `main`, overriding the platform's branch instruction. |
 | Grok Build (xAI CLI) | `AGENTS.md` | Works as is. |
 | Cursor | `AGENTS.md` | Use agent mode. Turn off inline suggestions in any chat where you type answers. |
 | GitHub Copilot | `AGENTS.md` | Use agent mode in the IDE. The cloud coding agent works through PRs, which doesn't fit lesson work. |

@@ -1,3 +1,15 @@
 {
-  "promptSuggestionEnabled": false
+  "promptSuggestionEnabled": false,
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/tools/session_start.sh\""
+          }
+        ]
+      }
+    ]
+  }
 }
